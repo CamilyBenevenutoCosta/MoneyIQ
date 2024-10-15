@@ -16,6 +16,16 @@ body {
   color: black;
 }
 
+#toggleTheme {
+  font-size:1.5rem ;   /* Tamanho da fonte */
+  color: #198754;
+  cursor:pointer;   /* muda o ícone de clique */
+  transition: ease-in-out .4s;    /* ele dar um "efeito de animações" no elemento */
+  float: right;
+  position: relative;
+  padding: 0;
+}
+
 h1, h2, p {
   margin: 0;
 }

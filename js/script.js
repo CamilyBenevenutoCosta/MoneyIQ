@@ -1,3 +1,21 @@
+// Mudança de tema de dark para light
+const toggleTheme = document.getElementById("toggleTheme"); /* chama o elemento toggleTheme */
+const rootHtml = document.documentElement;
+
+// Função para Alterar o Tema
+
+function changeTheme () {
+  const currentTheme = rootHtml.getAttribute("data-theme");
+
+  currentTheme === "dark" ? rootHtml.setAttribute("data-theme", "light") : rootHtml.setAttribute("data-theme", "dark");
+
+  toggleTheme.classList.toggle("bi-sun");
+  toggleTheme.classList.toggle("bi-moon-stars");
+}
+
+toggleTheme.addEventListener("click", changeTheme);
+// Fim da Função de Mudar Tema
+
 /*-------------------------------Menu-------------------------------------- */ 
 const showMenu = (toggleId, navId) =>{
   const toggle = document.getElementById(toggleId),
