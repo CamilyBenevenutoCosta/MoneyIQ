@@ -148,9 +148,9 @@ section {
 }
 
 .nav-logo img {
-    width: 7rem;
+    width: 4rem;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .nav-toggle {
@@ -211,12 +211,17 @@ section {
 
 .home-img {
   position: absolute;
+  margin-top: 100px;
   right: 0;
-  bottom: 0;
-  width: 260px;
+  top: 0;
+  max-width: 100%;
 }
 
-
+.video {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */ 
+}
 
 .button {
   display: inline-block;
