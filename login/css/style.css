@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    background-color: #1b2139; /* Substitua pelo código hexadecimal da cor desejada */
+    background: url(../img/bg-blue); /* Substitua pelo código hexadecimal da cor desejada */
   }
 
 
