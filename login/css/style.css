@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    background: url(../img/bg-blue); /* Substitua pelo código hexadecimal da cor desejada */
+    background: url(../img_login/FundoBlue.png); /* Substitua pelo código hexadecimal da cor desejada */
   }
 
 
@@ -48,7 +48,7 @@ body {
 }
 
 .container button {
-    background: #26312e;
+    background: #1b2139;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -60,7 +60,7 @@ body {
     margin-top: 10px;
     cursor: pointer;
 }
-.container .voltar {
+.container .botoes {
     color: #fff;
 }
 .container .bi-arrow-left {

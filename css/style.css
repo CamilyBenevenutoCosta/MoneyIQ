@@ -150,7 +150,7 @@ section {
   background-color: #fff;
 }
 
-.nav-logo img {
+.nav-img-logo {
     width: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -407,15 +407,85 @@ h2 {
 
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 360px) {
+  .about-subtitle {
+    margin-bottom: 16px;
+    margin-right: -30px;
+  }
+  
+  .about-text {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+
+}
+@media screen and (max-width: 375px) {
   .home {
     row-gap: 32px;
   }
+  .nav-img-logo {
+    width: 44px;
+  }
+  .about-img {
+    margin-right: 40px;
+  }
+  .skills-container {
+    margin-right: 40px;
+    margin-left: -40px;
+  }
+  .work-container {
+    margin-right: 40px;
+    margin-left: -40px;
+  }
+  .about-subtitle {
+    margin-bottom: 16px;
+    margin-right: -30px;
+  }
+  
+  .about-text {
+    margin-right: -30px;
+  }
 }
+
+@media screen and (max-width: 430px) {
+  .home {
+    row-gap: 32px;
+  }
+  .nav-img-logo {
+    width: 44px;
+  }
+  .about-img {
+    margin-right: 40px;
+  }
+  .skills-container {
+    margin-right: 40px;
+    margin-left: -40px;
+  }
+  .work-container {
+    margin-right: 30px;
+    margin-left: -30px;
+  }
+  .about-img {
+    margin-left: 10px;
+    width: 200px;
+  }
+  .about-subtitle {
+    margin-bottom: 16px;
+    margin-right: -30px;
+  }
+  
+  .about-text {
+    margin-right: -30px;
+  }
+}
+
 
 @media screen and (min-width: 576px) {
   .home {
     padding: 64px 0 32px;
+  }
+  .nav-img-logo {
+    width: 44px;
   }
   .home-socials {
     padding-top: 0;
@@ -460,6 +530,7 @@ h2 {
   body {
     margin: 0;
   }
+
   .section {
     padding-top: 64px;
     padding-bottom: 48px;
@@ -515,6 +586,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
+
   .home {
     padding: 160px 0 32px;
   }
