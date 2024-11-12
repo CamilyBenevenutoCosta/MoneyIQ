@@ -447,7 +447,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   .home {
     row-gap: 32px;
   }

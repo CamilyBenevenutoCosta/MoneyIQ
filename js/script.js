@@ -58,3 +58,4 @@ sr.reveal('.home-text, .about-img, .skills-subtitle, .skills-text, .skills-title
 sr.reveal('.home-img, .about-subtitle, .about-text, .skills-img',{delay: 400}); 
 sr.reveal('.icon, .img',{ interval: 200}); 
 sr.reveal('.skills-data, .work-img, .contact-input',{interval: 200}); 
+
